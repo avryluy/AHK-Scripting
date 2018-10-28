@@ -10,7 +10,10 @@ Run Vivaldi.exe
 }
 return
 
-
+^+c::
+send, ^c
+run http://www.google.com/search?q=%Clipboard%
+return
 
 
 #Y::
